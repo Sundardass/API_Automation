@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-const Home = () =>{
-return(
+export let Home = () => {
+  return (
     <div>
-        <div id="header">
-
-        </div>
+      <div id="header">
+        <h1>Sundar Dass</h1>
+      </div>
     </div>
-)
-}
+  );
+};
